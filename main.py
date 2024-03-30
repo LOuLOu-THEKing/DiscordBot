@@ -533,5 +533,5 @@ async def on_member_remove(member):
     cur.execute(query)
     connect.commit()
 
-my_secret = 'OTcxNjIyNDk4NTM1ODg2ODY5.YnNL9w.h2ApFdYcCVPhCD_lhmTZHdwj-wQ'
+my_secret = ''
 client.run(my_secret)
